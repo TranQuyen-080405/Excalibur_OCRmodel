@@ -56,16 +56,12 @@ txt_dir  = r"D:\Classification\results"
    → Classifies the document and decides which OCR model should be used.  
    Output: saves classification results inside `results/classification/`.
 
-   2️⃣ `paddle_ocr.ipynb`  
+   2️⃣ `Paddle.ipynb`  
    → Performs OCR using PaddleOCR model.  
    Output: saves text results and processed images to `results/paddle/`.
 
-   3️⃣ `nanonet_ocr.ipynb`  
+   3️⃣ `VLM.ipynb`  
    → Performs OCR using Nanonet model.  
-   Output: saves text results and processed images to `results/nanonet/`.
-
-   4️⃣ `evaluation.ipynb`  
-   → Compares OCR outputs from both models and evaluates accuracy.  
-   Output: combined final result inside `results/merged/`.
+   Output: saves text results and processed images to `results/nanonet/`..
 
 ---
