@@ -25,15 +25,14 @@ This repository contains the complete Optical Character Recognition (OCR) pipeli
 
 project_root/
 │
-├──Checkpoint
+├── Checkpoint
 │ └── keras_model.h5 # Pretrained classifier model
-├── classification.ipynb # Script to classify images
 ├── Paddle.ipynb # PaddleOCR class definition
+├── README.md
 ├── VLM.ipynb # NanoNet OCR class definition
-├── utils.py # Image preprocessing functions
-├── images/ # Input images for classification
-│
-└── README.md
+├── classification.ipynb # Script to classify images (for running classification)
+├── classification_model.ipynb # Script/Notebook (potentially used for training/creating the classification model)
+└── utils.py # Image preprocessing functions
 
 ---
 
