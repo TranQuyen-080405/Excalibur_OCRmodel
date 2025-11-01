@@ -1,9 +1,12 @@
-# Excalibur_OCRmodel
+# Excalibur_OCR
 # OCR Classification & Recognition System
 
-This repository contains two main components:
-1. **Classification model** – to identify the type of image and determine which OCR engine to use.
-2. **OCR models** – including **PaddleOCR** and **NanoNet**, used for text extraction and post-processing.
+This repository contains the complete Optical Character Recognition (OCR) pipeline, designed to analyze the document type and apply the optimal OCR engine.
+
+## 🌟 Key Components
+
+1.  **Classification Model** – A TensorFlow/Keras-based deep learning model used to identify the image type and determine which OCR engine to invoke.
+2.  **OCR Models** – Including **PaddleOCR** and **NanoNet** (referred to as VLM), used for text extraction and post-processing.
 
 ---
 
@@ -11,12 +14,10 @@ This repository contains two main components:
 
 | Component | Python Version | Notes |
 |------------|----------------|--------|
-| `classification` (image classifier) | **Python 3.10** | Uses TensorFlow/Keras-based model (`keras_model.h5`) |
+| `classification` (image classifier) | **Python 3.10** | Uses the Keras-based model (`keras_model.h5`). |
 | `ocr modules` (PaddleOCR, NanoNet) | **Python 3.13** | Uses PaddleOCR, OpenCV, PIL, NumPy, etc. |
 
-> ⚠️ It’s recommended to create two separate environments to avoid dependency conflicts.
-
-
+> ⚠️ **Recommendation:** It is highly recommended to create **two separate virtual environments** to avoid dependency conflicts (e.g., `excalibur-class` for 3.10 and `excalibur-ocr` for 3.13).
 
 ---
 
