@@ -27,11 +27,10 @@ project_root/
 │
 ├── Checkpoint
 │ └── keras_model.h5 # Pretrained classifier model
-├── Paddle.ipynb # PaddleOCR class definition
+├── PaddleOCR.ipynb # PaddleOCR class definition
 ├── README.md
 ├── VLM.ipynb # NanoNet OCR class definition
 ├── classification.ipynb # Script to classify images (for running classification)
-├── classification_model.ipynb # Script/Notebook (potentially used for training/creating the classification model)
 └── utils.py # Image preprocessing functions
 
 ---
